@@ -39,20 +39,13 @@ This app uses:
 ☁️ WeatherAPI.com for fetching real-time weather data.
 📸 Screenshots
 
-## 🎬 Demo Preview
-
-<p align="center">
-  <img src="assets/demo/weather_demo.gif" width="300" alt="Weather App Demo">
-</p>
-
----
-
 ## 🖼 Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/weather1.jpg" width="260" alt="Weather Light">
-  <img src="assets/screenshots/weather2.jpg" width="260" alt="Weather Dark">
-  <img src="assets/screenshots/weather3.jpg" width="260" alt="7-Day Forecast">
+  <img src="assets/screenshots/weatheron.jpg" width="260" alt="Current Weather">
+  <img src="assets/screenshots/weathertemp.jpg" width="260" alt="Temperature Details">
+  <img src="assets/screenshots/weather7day.jpg" width="260" alt="7-Day Forecast">
+  <img src="assets/screenshots/weather1.jpg" width="260" alt="Light Mode">
 </p>
 
 
