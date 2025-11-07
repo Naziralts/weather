@@ -47,6 +47,11 @@ This app uses:
   <img src="assets/screenshots/weather7day.jpg" width="260" alt="7-Day Forecast">
   <img src="assets/screenshots/weather1.jpg" width="260" alt="Light Mode">
 </p>
+## 🎬 Demo Preview
+
+<p align="center">
+  <img src="assets/demo/weather_demo.gif" width="320" alt="Weather App Demo">
+</p>
 
 
 🧑‍💻 About the Developer
