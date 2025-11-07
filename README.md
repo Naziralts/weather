@@ -40,23 +40,17 @@ This app uses:
 📸 Screenshots
 ## 🖼 Screenshots
 
-## 🌙 Dark Mode
-![Weather Light](assets/screenshots/weather1.jpg)
+## 🖼 Screenshots
 
----
-
-## 🌙 Dark Mode
-![Weather Dark](assets/screenshots/weather2.jpg)
-
----
-
-## 📅 7-Day Forecast
-![7-Day Forecast](assets/screenshots/weather3.jpg)
+![Weather Light](https://github.com/naziraaltybaeva/weather_app/blob/main/assets/screenshots/weather1.jpg?raw=true)
+![Weather Dark](https://github.com/naziraaltybaeva/weather_app/blob/main/assets/screenshots/weather2.jpg?raw=true)
+![7-Day Forecast](https://github.com/naziraaltybaeva/weather_app/blob/main/assets/screenshots/weather3.jpg?raw=true)
 
 ---
 
 ## 🎥 Demo Video
-[▶️ Watch Demo](assets/demo/weather.demo.mp4)
+[▶️ Watch Demo](https://github.com/naziraaltybaeva/weather_app/blob/main/assets/demo/weather.demo.mp4?raw=true)
+
 
 
 🧑‍💻 About the Developer
