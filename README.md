@@ -38,10 +38,27 @@ flutter run
 This app uses:
 ☁️ WeatherAPI.com for fetching real-time weather data.
 📸 Screenshots
-<p align="center"> <img src="assets/screenshots/weather1.jpg" width="250" /> <img src="assets/screenshots/weather2.jpg" width="250" /> <img src="assets/screenshots/weather3.jpg" width="250" /> </p>
-🎬 Demo Video
-<p align="center"> <video width="320" height="240" controls> <source src="assets/demo/weather.demo.mp4" type="video/mp4"> Your browser does not support the video tag. </video> </p>
-💡 If GitHub does not display the video, you can upload a .gif version or provide a YouTube/Drive link.
+## 🖼 Screenshots
+
+## 🌙 Dark Mode
+![Weather Light](assets/screenshots/weather1.jpg)
+
+---
+
+## 🌙 Dark Mode
+![Weather Dark](assets/screenshots/weather2.jpg)
+
+---
+
+## 📅 7-Day Forecast
+![7-Day Forecast](assets/screenshots/weather3.jpg)
+
+---
+
+## 🎥 Demo Video
+[▶️ Watch Demo](assets/demo/weather.demo.mp4)
+
+
 🧑‍💻 About the Developer
 Nazira Altybaeva
 Flutter Developer passionate about creating clean, scalable, and beautiful apps.
