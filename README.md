@@ -1,29 +1,29 @@
 🌤 Weather App
-A Flutter app to view current weather, hourly forecast, and data for the past 7 days.
+A Flutter application to view current weather, hourly forecasts, and historical data for the past 7 days.
 👩‍💻 Author: Flutter Developer Altybaeva Nazira
 ✨ Features
-Current Weather – Displays temperature, conditions, and weather icon for the selected city
-Hourly Forecast – Scrollable list of today’s weather in hourly intervals
-7-Day Forecast – Detailed forecast for the next week
-Past 7 Days History – Weather data for the previous week
-City Search – Check weather in any city worldwide 🌎
+🌡 Current Weather – Displays temperature, conditions, and weather icon for the selected city
+🕒 Hourly Forecast – Scrollable list of today’s weather in hourly intervals
+📅 7-Day Forecast – Detailed forecast for the next week
+📈 Past 7 Days History – Weather data from the previous week
+🌎 City Search – Check weather in any city worldwide
+📱 Responsive Design – Adaptive layout for mobile, tablet, and web screens
 🛠 Technologies
-Flutter – Cross-platform framework
-BLoC – State management
-Equatable – For object comparison
-GetIt – Dependency injection
-HTTP – API requests
-Intl – Date and time formatting
-
+Purpose	Package
+Cross-platform Framework	Flutter
+State Management	BLoC (flutter_bloc)
+Object Comparison	Equatable
+Dependency Injection	GetIt
+Network Requests	HTTP / Dio
+Date & Time Formatting	Intl
 🏗 Architecture
-The app uses the BLoC (Business Logic Component) pattern for state management:
-WeatherEvent -> WeatherBloc -> WeatherState -> UI
+The app follows Clean Architecture with the BLoC (Business Logic Component) pattern for state management:
+WeatherEvent ➜ WeatherBloc ➜ WeatherState ➜ UI
 Key Components:
-WeatherBloc – Handles events and manages weather state
-WeatherApiService – Service for working with WeatherAPI.com
-WeatherEvent – Events (e.g., FetchWeather)
-WeatherState – App state (loading, data, error)
-
+🧩 WeatherBloc – Handles events and manages weather state
+🌐 WeatherApiService – Manages communication with WeatherAPI.com
+⚡ WeatherEvent – Events (e.g., FetchWeather)
+📊 WeatherState – Represents app states: loading, success, or error
 ⚡ Installation
 Make sure Flutter SDK is installed
 Clone the repository:
@@ -32,13 +32,16 @@ Navigate to the project directory:
 cd weather_app
 Install dependencies:
 flutter pub get
-▶ Running the App
-Run the app on a connected device or emulator:
+Run the app:
 flutter run
 🌐 API
-The app uses:
-WeatherAPI.com – For weather data
-🖼 Screenshots
-Current Weather
-Hourly Forecast
-7-Day Forecast
+This app uses:
+☁️ WeatherAPI.com for fetching real-time weather data.
+📸 Screenshots
+<p align="center"> <img src="assets/screenshots/weather1.jpg" width="250" /> <img src="assets/screenshots/weather2.jpg" width="250" /> <img src="assets/screenshots/weather3.jpg" width="250" /> </p>
+🎬 Demo Video
+<p align="center"> <video width="320" height="240" controls> <source src="assets/demo/weather.demo.mp4" type="video/mp4"> Your browser does not support the video tag. </video> </p>
+💡 If GitHub does not display the video, you can upload a .gif version or provide a YouTube/Drive link.
+🧑‍💻 About the Developer
+Nazira Altybaeva
+Flutter Developer passionate about creating clean, scalable, and beautiful apps.
