@@ -31,10 +31,11 @@ class WeatherState extends Equatable {
       hourly: hourly ?? this.hourly,
       next7days: next7days ?? this.next7days,
       pastWeek: pastWeek ?? this.pastWeek,
-      error: error ?? '',
+      error: error ?? this.error, 
     );
   }
 
   @override
-  List<Object?> get props => [loading, current, hourly, next7days, pastWeek, error];
+  List<Object?> get props =>
+      [loading, current, hourly, next7days, pastWeek, error];
 }
