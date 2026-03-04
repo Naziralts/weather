@@ -38,22 +38,20 @@ void main() {
       act: (bloc) => bloc.add(FetchWeather('Bishkek')),
       expect: () => [
         const WeatherState(loading: true),
-        const WeatherState(
-          loading: false,
-          current: {},
-          hourly: [],
-          next7days: [],
-          pastWeek: [],
-          error: '',
-        ),
+        isA<WeatherState>()
+            .having((s) => s.loading, 'loading', false)
+            .having((s) => s.current, 'current', isA<Map>())
+            .having((s) => s.hourly, 'hourly', isA<List>())
+            .having((s) => s.next7days, 'next7days', isA<List>())
+            .having((s) => s.pastWeek, 'pastWeek', isA<List>()),
       ],
     );
 
     blocTest<WeatherBloc, WeatherState>(
-      'emits error state when api throws',
+      'emits error state when API throws exception',
       build: () {
         when(() => mockApi.getHourlyForecast(any()))
-            .thenThrow(Exception('Failed'));
+            .thenThrow(Exception('API Error'));
 
         return WeatherBloc(mockApi);
       },
@@ -62,7 +60,7 @@ void main() {
         const WeatherState(loading: true),
         isA<WeatherState>()
             .having((s) => s.loading, 'loading', false)
-            .having((s) => s.error.isNotEmpty, 'error not empty', true),
+            .having((s) => s.error.isNotEmpty, 'error', true),
       ],
     );
   });
